@@ -31,11 +31,25 @@ Run the python program in terminal to get the output.
 Number of words in the txt file is displayed as the output.
 
 ## PROGRAM:
+```python
+write a program for getting the word count from a text.
+#developed by:Mathiyazhagan.A
+#reference no: 22005215
 
+f=open("sample1.txt","r")
+wc=0
+for line in f:
+    word=line.split(" ")
+    wc=wc+len(word)
+print("word count is:",wc)
+f.close()
+
+```
 
 ### OUTPUT:
 
-
+![](./5A.png)
+![](./5a.png)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
